@@ -68,7 +68,7 @@
     <div class="container">
 
        <!-- Page Heading/Breadcrumbs -->
-      <h1 class="mt-4 mb-3">Products A-Z
+      <h1 class="mt-4 mb-3">Products
         <small><!space></small>
       </h1>
 
@@ -85,44 +85,124 @@
 <!-- subhead goes here -->
         
         
+        
+        <!-----------------------------------------> 
+        
+        <!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+* {
+  box-sizing: border-box;
+}
+
+#myInput {
+  background-image: url('/css/searchicon.png');
+  background-position: 10px 12px;
+  background-repeat: no-repeat;
+  width: 100%;
+  font-size: 16px;
+  padding: 12px 20px 12px 40px;
+  border: 1px solid #ddd;
+  margin-bottom: 12px;
+}
+
+#myUL {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+#myUL li a {
+  border: 1px solid #ddd;
+  margin-top: -1px; /* Prevent double borders */
+  background-color: #f6f6f6;
+  padding: 12px;
+  text-decoration: none;
+  font-size: 18px;
+  color: black;
+  display: block
+}
+
+#myUL li a:hover:not(.header) {
+  background-color: #eee;
+}
+</style>
+</head>
+<body>
+
+<h2>Search Products A-Z</h2>
+
+<input type="text" id="myInput" onkeyup="myFunction()" placeholder="Search for names.." title="Type in a name">
+
+<ul id="myUL">
+  <li><a href="prod_25.html">Air &amp; Water Hose</a></li>
+  <li><a href="prod_14.html">Annuflex</a></li>
+  <li><a href="prod_2.html">Autoclave Hose</a></li>
+  <li><a href="prod_40.html">B-44-3</a></li>
+  <li><a href="prod_40.html">B-44-4X</a></li>
+  <li><a href="prod_45.html">Belt Lacing</a></li>
+  <li><a href="prod_9.html">Boss-Lock</a></li>
+    <li><a href="prod_.html">Bronzeflex</a></li>
+    <li><a href="prod_26.html">Chemical Hose</a></li>
+    <li><a href="prod_48.html">Chemical Seals</a></li>
+    <li><a href="prod_33.html">Clearbraid</a></li>
+    <li><a href="prod_43.html">Conveyor Belt</a></li>
+    <li><a href="prod_18.html">Ducting</a></li>
+    <li><a href="prod_34.html">Excelon</a></li>
+    <li><a href="prod_15.html">Fire Hose</a></li>
+    <li><a href="prod_18.html">Flexible Ducting</a></li>
+    <li></li>
+    <li></li>
+    <li></li>
+    <li></li>
+    <li></li>
+    <li></li>
+    <li></li>
+    <li></li>
+    <li></li>
+    <li></li>
+    <li></li>
+    <li></li>
+    <li></li>
+</ul>
+
+<script>
+function myFunction() {
+    var input, filter, ul, li, a, i;
+    input = document.getElementById("myInput");
+    filter = input.value.toUpperCase();
+    ul = document.getElementById("myUL");
+    li = ul.getElementsByTagName("li");
+    for (i = 0; i < li.length; i++) {
+        a = li[i].getElementsByTagName("a")[0];
+        if (a.innerHTML.toUpperCase().indexOf(filter) > -1) {
+            li[i].style.display = "";
+        } else {
+            li[i].style.display = "none";
+
+        }
+    }
+}
+</script>
+
+</body>
+</html>
+
+        
+        
+        <!----------------------------------------->
+        
+        
+        
 <div style="texter">
     
 <table width="100%" border=0>
 <tr>
 <td valign=top width=33% style="font-size: .8em;" valign=top>
-<span style="font-weight: bold; color: #000080; font-size: 1.2em;">A-D</span><br>
-<a href="prod_25.html">Air & Water Hose</a><br>
-<a href="prod_14.html">Annuflex</a><br>
-<a href="prod_2.html">Autoclave Hose</a><br>
 
-<a href="prod_40.html">B-44-3</a><br>
-
-<a href="prod_40.html">B-44-4X</a><br>
-
-<a href="prod_45.html">Belt Lacing
-</a><br>
-
-<a href="prod_9.html">Boss-Lock</a><br>
-
-<a href="prod_.html">Bronzeflex</a><br>
-
-<a href="prod_26.html">Chemical Hose</a><br>
-
-<a href="prod_48.html">Chemical Seals</a><br>
-
-<a href="prod_33.html">Clearbraid</a><br>
-
-<a href="prod_43.html">Conveyor Belt</a><br>
-
-<a href="prod_18.html">Ducting</a><br><br>
-
-<span style="font-weight: bold; color: #000080; font-size: 1.2em;">E-H</span><br>
-
-<a href="prod_34.html">Excelon</a><br>
-
-<a href="prod_15.html">Fire Hose</a><br>
-
-<a href="prod_18.html">Flexible Ducting</a><br>
+<br>
 
 <a href="prod_33.html">Food & Beverage Hose</a><br>
 
