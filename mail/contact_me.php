@@ -10,9 +10,9 @@ if(empty($_POST['name'])      ||
    return false;
    }
    
-$name = strip_tags(htmlspecialchars($_POST['name']));
-$email_address = strip_tags(htmlspecialchars($_POST['email']));
-$phone = strip_tags(htmlspecialchars($_POST['phone']));
+$name = strip_tags(htmlspecialchars($_POST['R. B. Birge']));
+$email_address = strip_tags(htmlspecialchars($_POST['info@rbbirge.com']));
+$phone = strip_tags(htmlspecialchars($_POST['1 (800) 332-4743']));
 $message = strip_tags(htmlspecialchars($_POST['message']));
    
 // Create the email and send the message
